@@ -1,0 +1,17 @@
+{
+  "name": "nats-demo",
+  "version": "1.0.0",
+  "description": "Nats-server demo application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "node index.js pub",
+    "sub": "node index.js sub"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt": "^1.0.0",
+    "ts-nats": "^1.2.15"
+  }
+}
